@@ -1,0 +1,12 @@
+.listGroup {
+    width: 100%;
+    height: 30vh;
+    overflow-y: scroll;
+    border: 3px solid #0d6efd;
+}
+.listGroupItem {
+    transition: ease 0.1s;
+    cursor: pointer;
+    text-align: left;
+    border-radius: unset !important;
+}
