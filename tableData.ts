@@ -28,7 +28,7 @@ const scoreValues = [
 ];
 
 export async function getTableData(): Promise<string[][]> {
-    const response = await fetch("/all.csv");
+    const response = await fetch("/cdsds/all.csv");
     const text = await response.text();
     return text
         .split("\n")
