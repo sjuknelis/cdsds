@@ -51,7 +51,7 @@ export default function Home() {
                             <button type="button" className="nav-link" data-bs-toggle="modal" data-bs-target="#aboutModal">About</button>
                         </li>
                         <li>
-                            <a className="nav-link" href="/all.csv">Full dataset (.csv)</a>
+                            <a className="nav-link" href="/cdsds/all.csv">Full dataset (.csv)</a>
                         </li>
                     </ul>
                 </div>
@@ -82,7 +82,7 @@ export default function Home() {
                             The <a href="https://commondataset.org/" target="_blank">Common Data Set (CDS)</a> is an initiative by College Board, US News, and Peterson's in which colleges publish information to help prospective students make informed choices in the college admissions process.<br /><br />
                             Each college publishes a CDS which contains important information about what the college prioritizes when making admissions decisions (item C7). Unfortunately, almost every college release its CDS as a PDF, which makes it hard to parse and to compile many colleges' CDSs into a centralized database. Nonetheless, this is my attempt to do that.<br /><br />
                             Because the vast majority of data on this website was created using computer vision scripts I wrote to scan PDFs, you should not treat this website as authoritative. In addition, most CDSs referred to for this website are for the 2022-23 academic year and so may be slightly outdated (especially in the standardized testing category).<br /><br />
-                            You can download the full dataset for this website <a href="/all.csv">here</a>. If you experience any problems with the website, please let me know. Thanks to <a href="https://www.collegetransitions.com/dataverse/common-data-set-repository" target="_blank">College Transitions</a> for their repository of CDS links.
+                            You can download the full dataset for this website <a href="/cdsds/all.csv">here</a>. If you experience any problems with the website, please let me know. Thanks to <a href="https://www.collegetransitions.com/dataverse/common-data-set-repository" target="_blank">College Transitions</a> for their repository of CDS links.
                         </div>
                     </div>
                 </div>
