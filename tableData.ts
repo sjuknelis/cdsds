@@ -17,7 +17,7 @@ export const categories = [
     "Racial/ethnic status",
     "Volunteer work",
     "Work experience",
-    "Demonstrated interest"
+    "Level of applicant's interest"
 ];
 
 const scoreValues = [
