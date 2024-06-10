@@ -42,6 +42,7 @@ export default function Home() {
             <Head>
                 <title>CDSDS</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <script data-goatcounter="https://cdsds.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
             </Head>
             <nav className={`navbar navbar-expand-lg bg-light ${styles.navbar}`}>
                 <div className="container-fluid">
